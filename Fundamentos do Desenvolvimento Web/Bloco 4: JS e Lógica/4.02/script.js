@@ -9,8 +9,8 @@
 //     console.log(groceryList[i])
 // }
 
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 
-for(let posicao of names){
-    console.log(posicao)
-}
+// for(let posicao of names){
+//     console.log(posicao)
+// }
