@@ -55,6 +55,56 @@
 //      console.log('Baeta é o mais novo ')
 // }
 
+// let fatoracao = 1;
+
+// for ( let multiplicador = 10; multiplicador > 0; multiplicador -= 1){
+//     fatoracao *= multiplicador;
+// }
+// console.log(fatoracao)
+
+// let word = 'trybe'
+
+// reverseword = word.split("").reverse().join("");
+
+// console.log(reverseword)
+   
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+// let maiorArray = array[0]
+// let menorArray = array[0]
+
+// for (let index = 0; index < array.length; index +=1){
+//     if(array[index].length > maiorArray.length){
+//         maiorArray = array[index];
+//     }
+// }
+
+// for (let index=0;index < array.length; index +=1){
+//     if(array[index].length < menorArray.length){
+//         menorArray = array[index];
+//     }
+
+// }
+
+// console.log(menorArray)
+// console.log(maiorArray)
+
+// let biggestPrimeNumber = 0;
+
+// for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
+//   let isPrime = true;
+//   for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+//     if (currentNumber % currentDivisor === 0) {
+//       isPrime = false;
+//     }
+//   }
+//   if (isPrime) {
+//     biggestPrimeNumber = currentNumber;
+//   }
+// }
+
+// console.log(biggestPrimeNumber);
+
 
 
 
