@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class = 'teste' id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class = 'teste' id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = 'Pulp Fiction';
+      document.getElementById("second-paragraph").innerText = 'Quentin Tarantino você amassa nos filmes';
+    //   document.getElementById("subtitle").innerText = 'Se não viu. VEJA!';
+      document.getElementsByClassName('teste')[0].innerText = 'isso é vermelho';
+      const cor = document.getElementsByTagName('h4')[0];
+      cor.style.color = 'blue';
+
+    </script>
+  </body>
+</html>
