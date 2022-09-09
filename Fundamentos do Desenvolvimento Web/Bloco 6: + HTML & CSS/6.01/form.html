@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trybe Trip</title>
+    <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+  <header>
+    <h1 >Trybe Trip</h1>
+    <p>Você sonha, a Trybe realiza!!</p>
+  </header>   
+  <main>
+    <fieldset>
+      <legend>Inscrição Tryber</legend>
+      
+      <div class="nomeCompleto">
+        <label for="name">Nome completo:</label>
+        <input type="text" name="Name:" id="name" required minlength="10" maxlength="40">
+        <br>
+      </div>
+
+      <div class="email">
+        <label for="email">E-mail:</label>
+        <input type='email' name="email:" id="email" required minlength="10" maxlength="40">
+        <br>
+      </div>
+
+      <p>Escolha um dos destinos:</p>
+
+      <div class="destinos">
+        <label for="destino-1" aria-required="true">
+          <input type="radio" name="destinos" id="destino-1" value="rj"> Rio de Janeiro
+        </label>
+
+        <label for="destino-2">
+          <input type="radio" name="destinos" id="destino-2" value="nt"> Natal
+        </label>
+
+        <label for="destino-3">
+          <input type="radio" name="destinos" id="destino-3" value="sg"> Sergipe 
+        </label>
+
+        <label for="destino-4">
+          <input type="radio" name="destinos" id="destino-4" value="ba">Bahia
+        </label>
+      </div>
+
+      <div class="porque">
+        <label for="porque">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso?</label>
+        <textarea name="texti" id="porque" maxlength="500"></textarea>
+      </div>
+
+      <div class="data">
+        <label for="data">Qual a melhor data para realizar sua viagem:</label>
+        <input type="date" name="date" id="data" required>
+      </div>
+
+      <div class="checkBox">
+        <input type="checkbox" name="oportunidades" id="oportunidades" >
+        <label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Tryube?</label>
+        <br>
+
+        <input type='checkbox' name="imagens" id="imagens" required >
+        <label for="imagens">Concordo que imagens das minha férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </div>
+
+      <button type="submit">Enviar</button>
+      
+
+
+
+    </fieldset>
+
+  </main> 
+</body>
+</html>
